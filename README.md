@@ -32,3 +32,10 @@ still works correctly.
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
+
+A quick guide on quality loss per day:
+
+- Non conjured item / before sell in: - 1
+- Non conjured item / after sell in: -2
+- Conjured item / before sell in: - 2
+- Conjured item / after sell in: -4
