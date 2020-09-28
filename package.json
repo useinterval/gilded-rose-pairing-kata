@@ -6,7 +6,8 @@
     "precompile": "rimraf app/**/*.js test/**/*.js",
     "compile": "tsc",
     "pretest": "rimraf app/**/*.js test/**/*.js",
-    "test": "yarn compile && nyc mocha"
+    "test": "yarn compile && nyc mocha",
+    "test:golden": "yarn compile && node test/golden-master-text-test.js > myout.txt && diff myout.txt golden-output.txt"
   },
   "license": "MIT",
   "private": true,
